@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 2rem;
+    color: white;
+    background-color:#2a9d8f;
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_box{
+    max-width: 40vmin;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: .5rem;
+    grid-column-gap: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: blanchedalmond;
+    font-size: 3rem;
+    color: black;
+}
+h1{
+    color: black;
+}
+.reset-btn{
+    
+    height: 3rem;
+    padding: .5rem;
+    margin: 3rem;
+    border-radius: 4rem;
+    border: none;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.new-btn{
+    height: 3rem;
+    padding: .5rem;
+    margin: 3rem;
+    border-radius: 4rem;
+    border: none;
+    background-color: yellow;
+    font-weight: bold;
+}
+.msg-container{
+    display: grid;
+    justify-content: center;
+
+}
+.msg{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.hide{
+    display: hidden;
+}
